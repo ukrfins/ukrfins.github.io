@@ -1,0 +1,79 @@
+body {
+    background: #D3D5D6;
+    margin: 0;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header styles */
+
+.header-container {
+    background: #898D8E;
+    display: grid;
+    grid-template-columns: 2fr 8fr 1fr;
+    height: 120px;
+    align-items: center;
+}
+
+.header-container > .img {
+    text-align: center;
+}
+
+.header-container > .item {
+    font-size: 48px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.header-container > a {
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+}
+
+.button {
+    border-radius: 25px;
+    text-align: center;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: #287AA3;
+}
+
+/* main content styles -  */
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    margin: 25px 100px;
+}
+
+/* footer styles*/
+
+footer {
+    background-color: black;
+    color: lightgrey;
+    height: 120px;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+footer > .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    margin: 25px 50px;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+footer > .container > .item {
+    text-align: center;
+}
+
+footer > .container > .item > a {
+    text-decoration: none;
+    color: lightgrey;
+    text-align: center;
+}
